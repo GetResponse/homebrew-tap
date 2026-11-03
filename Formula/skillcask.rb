@@ -1,25 +1,25 @@
 class Skillcask < Formula
   desc "A lockfile-first package manager for AI agent skills (SKILL.md), backed by Composer repositories"
-  homepage "https://github.com/getresponse/skillcask"
-  version "0.10.3"
+  homepage "https://github.com/GetResponse/skillcask"
+  version "0.10.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/getresponse/skillcask/releases/download/v0.10.3/skillcask-aarch64-apple-darwin.tar.xz"
-      sha256 "ae0b0a94afbfe64a096f2c61597745e31a8e1bf616694119b011d2d8dcd061a5"
+      url "https://github.com/GetResponse/skillcask/releases/download/v0.10.4/skillcask-aarch64-apple-darwin.tar.xz"
+      sha256 "434815d228fe9c86ffd7dcfdc07e9e46214a22ef8c70f08aadb37084e1af06b3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/getresponse/skillcask/releases/download/v0.10.3/skillcask-x86_64-apple-darwin.tar.xz"
-      sha256 "6a00f014ce5cfff056bfd96053cca9ad5eaa6945ca483be490e90cacbd18f6ff"
+      url "https://github.com/GetResponse/skillcask/releases/download/v0.10.4/skillcask-x86_64-apple-darwin.tar.xz"
+      sha256 "394dfed03a6030609856742970f56663c9b784dd6be569469ddfca8208631e74"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/getresponse/skillcask/releases/download/v0.10.3/skillcask-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "73392a28e6527bf205ba80a25e0863f5f0a75cc3ad6b505c2ac2f46e21811eb1"
+      url "https://github.com/GetResponse/skillcask/releases/download/v0.10.4/skillcask-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "58c1503596d4a4bbaf584baa163766dbe71f3f29c62a1c340c9528695449614f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/getresponse/skillcask/releases/download/v0.10.3/skillcask-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4efd9f1af2b926428ee5a534dd6c70a40868f43d2dacc64a4a3d21af7b1ec229"
+      url "https://github.com/GetResponse/skillcask/releases/download/v0.10.4/skillcask-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2373e36cb4af568511fd45bb9640b339e5c542bf7c0252f9e8992492a87db98c"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
