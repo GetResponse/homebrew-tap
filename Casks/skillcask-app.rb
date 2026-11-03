@@ -1,13 +1,13 @@
 cask "skillcask-app" do
-  version "0.10.4"
-  sha256 "556488af232dffce9fd353831b479c53a0b9d21236ec6b495baf8a203f60f9c2"
+  version "0.10.5"
+  sha256 "9987860303b28387ab7f4974460a45e727e305a2275b94a5f3c3e5762d41a15d"
 
   url "https://github.com/GetResponse/skillcask/releases/download/v#{version}/Skillcask-#{version}-macos-universal.zip"
   name "Skillcask"
   desc "Desktop app for the skillcask package manager for agent skills"
   homepage "https://github.com/GetResponse/skillcask"
 
-  depends_on formula: "puniserv/tap/skillcask"
+  depends_on formula: "getresponse/tap/skillcask"
   depends_on macos: :sonoma
 
   app "Skillcask.app"
