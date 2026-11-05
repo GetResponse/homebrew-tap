@@ -1,6 +1,6 @@
 cask "skillcask-app" do
-  version "0.10.5"
-  sha256 "9987860303b28387ab7f4974460a45e727e305a2275b94a5f3c3e5762d41a15d"
+  version "0.10.6"
+  sha256 "6b261f02eb97da262793835a19f2da51e5d6e24e5e9ce4c94c5960d77aff2a8e"
 
   url "https://github.com/GetResponse/skillcask/releases/download/v#{version}/Skillcask-#{version}-macos-universal.zip"
   name "Skillcask"
